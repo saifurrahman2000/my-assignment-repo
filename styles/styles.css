@@ -1,0 +1,47 @@
+.container {
+    position: relative;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.centered {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    top: 190px;
+    right: 20px;
+    padding: 29px 290px;
+}
+
+.centered-up {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    top: 10%;
+    left: 15%;
+    padding: 177px 531px 383px 530px;
+}
+
+/* section portion */
+.bold-text {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-title {
+    border: 5px solid #00ff00;
+    
+    background: #FFF;
+}
