@@ -13,8 +13,8 @@
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
-    top: 190px;
-    right: 20px;
+    top: 170px;
+    left: 450px;
     padding: 29px 290px;
 }
 
@@ -24,9 +24,10 @@
     text-align: center;
     font-family: Merriweather;
     font-size: 32px;
-    top: 10%;
-    left: 15%;
+    top: 50%;
+    left: 20%;
     padding: 177px 531px 383px 530px;
+
 }
 
 /* section portion */
@@ -40,8 +41,133 @@
     line-height: normal;
 }
 
-.section-title {
-    border: 5px solid #00ff00;
-    
+.small-font {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.section-detail {
+
     background: #FFF;
+    border: 5px dotted skyblue;
+
+}
+
+.medium-font {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+.happy-new-year {
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+/* new section */
+.container2 {
+    position: relative;
+}
+
+.victor {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 50px;
+    width: 50%;
+    margin-top: 120px;
+    color: #07021100;
+    filter: blur(1px);
+}
+
+.group70 {
+    position: absolute;
+    top: 10px;
+    right: 800px;
+    margin-top: 100px;
+}
+
+.text-header {
+    color: #FFF;
+    top: 50px;
+    right: 1200px;
+    position: absolute;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;
+}
+
+.paragraph {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    top: 300px;
+    left: 700px;
+}
+
+.join-pic {
+    position: absolute;
+    color: #FFF;
+    bottom: 60px;
+    left: 800px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.container3 {
+    display: block;
+    text-align: center;   
+    border: solid skyblue;
+    border-width: 2px;
+    margin-right: 25%;
+    margin-left:  25%;
+    padding: 50px 50px;
+    background-color:rgb(249, 238, 241)}
+
+.color {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.button-attribute {
+    color: #FFF;
+    background: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    
 }
