@@ -30,6 +30,8 @@
 
 }
 
+
+
 /* section portion */
 .bold-text {
     color: #F00;
@@ -55,6 +57,8 @@
 
     background: #FFF;
     border: 5px dotted skyblue;
+    margin-right: 25%;
+    margin-left: 25%;
 
 }
 
@@ -139,13 +143,14 @@
 
 .container3 {
     display: block;
-    text-align: center;   
+    text-align: center;
     border: solid skyblue;
     border-width: 2px;
     margin-right: 25%;
-    margin-left:  25%;
+    margin-left: 25%;
     padding: 50px 50px;
-    background-color:rgb(249, 238, 241)}
+    background-color: rgb(249, 238, 241)
+}
 
 .color {
     color: #F00;
@@ -169,5 +174,238 @@
     border-radius: 10px;
     padding: 10px 20px;
     margin-top: 30px;
-    
+}
+
+/* new section 2 */
+.nav-class {
+
+    margin-top: 50px;
+    align-items: center;
+    display: inline-flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 5px dotted skyblue;
+
+}
+
+.left-para {
+    display: block;
+    padding: 231px 70px 104px;
+}
+
+.header1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.header2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.paragraph2 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.Ellipse-style {
+    position: relative;
+}
+
+.Ellipse-1 {
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    width: 364.844px;
+    height: 364.844px;
+    flex-shrink: 0;
+    border-radius: 364.844px;
+    background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;
+}
+
+.Ellipse-2 {
+    width: 463px;
+    height: 463px;
+    flex-shrink: 0;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+.right-para {
+    display: block;
+    padding: 186px 0px 181px 118px;
+}
+
+.class-2024 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.paragraph3 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+/* new section */
+.div-class2 {
+    display: block;
+    border: 5px dotted skyblue;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.article {
+    display: block;
+    text-align: center;
+}
+
+.header3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.header4 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 2px;
+}
+
+.Holidays {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.paragraph-4 {
+    color: rgba(7, 2, 17, 0.60);
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.images-folder {
+    position: relative;
+    display: block;
+
+
+}
+
+.Rectangle-1 {
+    position: absolute;
+    left: 75%;
+    border-radius: 16px 16px 0px 0px;
+    background-color: lightgray;
+}
+
+.Rectangle-2 {
+    position: absolute;
+    top: 430px;
+    left: 8%;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+
+}
+
+.Group-75 {
+    position: absolute;
+    top: 150px;
+    left: 20%;
+    width: 400px;
+    height: 450.319px;
+    flex-shrink: 0;
+}
+
+/* new section  */
+
+.new-section{
+    margin-top: 1000px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 5px dotted skyblue ;
+}
+
+
+.Group-44 {
+    position: absolute;
+    top: 100px;
+    left: 70%;
+    width: 320.841px;
+    height: 320.841px;
+    flex-shrink: 0;
+    fill: #F00;
+}
+
+.gift {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Portfolio {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.dolor {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.flex-box {
+    display:block;
+}
+
+.i-image-3 {
+    border-radius: 16px;
+    display: flex;
+
+}
+
+.i-image-4 {
+    display: flex;
+    border-radius: 16px;
 }
