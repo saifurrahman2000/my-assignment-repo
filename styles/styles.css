@@ -214,7 +214,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
+    
 }
 
 .Ellipse-style {
@@ -249,19 +249,16 @@
     color: #F00;
     font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 .paragraph3 {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
+    
 }
 
 /* new section */
@@ -270,6 +267,7 @@
     border: 5px dotted skyblue;
     margin-right: 25%;
     margin-left: 25%;
+
 }
 
 .article {
@@ -289,9 +287,7 @@
     color: #070211;
     font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     margin-top: 2px;
 }
 
@@ -300,13 +296,11 @@
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
 }
 
 .paragraph-4 {
     color: rgba(7, 2, 17, 0.60);
-
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
@@ -333,7 +327,6 @@
     left: 8%;
     border-radius: 16px 0px 16px 16px;
     background: #F00;
-
 }
 
 .Group-75 {
@@ -347,11 +340,11 @@
 
 /* new section  */
 
-.new-section{
+.new-section {
     margin-top: 1000px;
     margin-left: 25%;
     margin-right: 25%;
-    border: 5px dotted skyblue ;
+    border: 5px dotted skyblue;
 }
 
 
@@ -369,18 +362,14 @@
     color: #F00;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
 }
 
 .Portfolio {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
 
 }
@@ -389,14 +378,13 @@
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
 
 }
 
 .flex-box {
-    display:block;
+    display: block;
 }
 
 .i-image-3 {
@@ -408,4 +396,149 @@
 .i-image-4 {
     display: flex;
     border-radius: 16px;
+}
+
+/* new section class*/
+.new-section-class {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+    border: 5px solid skyblue;
+    padding: 5%;
+    margin-right: 25%;
+    margin-left: 25%;
+    background-color: rgb(245, 239, 239);
+}
+
+.email {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+
+.letter {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.paragraph-A {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.form {
+    display: flex;
+    position: absolute;
+    left: 20%;
+}
+
+#email {
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Inter;
+}
+
+.submit {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+}
+
+/* footer section  */
+.footer {
+    position: relative;
+    display: flex;
+    width: 1600px;
+    height: 609px;
+    flex-shrink: 0;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.rectangle-10{
+    position: absolute;
+margin-left: 25%;
+
+}
+
+.footer{
+justify-content: space-evenly;
+margin-left: 25%;
+margin-top: 5%;
+}
+
+.footer-section1 {
+    display: block;
+}
+
+.footer-section2 {
+    display: block;
+}
+
+.pre-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.p-text1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.p-text2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.social-link{
+    position: absolute;
+    display: flex;
+    left: 40%;
+    bottom: 20;
+    
+    
+}
+/* .facebook{ */
+    position: absolute;
+
+}
+/* .instagram{ */
+    position: absolute;
+    
+    
+}
+/* .twitter{ */
+    position: absolute;
+}
+/* .linkedin{ */
+    position: absolute;
 }
